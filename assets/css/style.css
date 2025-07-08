@@ -50,6 +50,7 @@ body {
   --third-text-color: #757575;
   --orange-color: #fd6e0a;
   --bg-primary: #fff8f3;
+  --white-color: #fff;
 }
 .container {
   max-width: 1140px;
@@ -71,6 +72,7 @@ body {
   background-image: url('../imges/developer.png'), url('../imges/header_bg.png');
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+  background-color: var(--bg-primary);
 }
 /* ==== Nav section Start now === */
 
@@ -227,8 +229,47 @@ nav .btn {
 
 /* ==== About section end now === */
 
-/* ==== Nav section Start now === */
-/* ==== Nav section end now === */
+/* ==== Skill section Start now === */
+.skill_main {
+  background-color: var(--white-color);
+  margin-bottom: 130px;
+}
+.skills_box_wrap {
+  display: flex;
+  gap: 24px;
+}
+.skill_wrapper {
+  text-align: center;
+}
+.skill_desc {
+  max-width: 909px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.skill_box {
+  width: 267px;
+  /* height: 377px; */
+  padding: 30px;
+  border-radius: 5px;
+  background: var(--white-color);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill_box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill_box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--third-text-color);
+  line-height: 28px;
+}
+
+/* ==== Skill section end now === */
 /* ==== Nav section Start now === */
 /* ==== Nav section end now === */
 /* ==== Nav section Start now === */
