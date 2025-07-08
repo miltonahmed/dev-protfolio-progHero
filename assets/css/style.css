@@ -47,28 +47,33 @@ body {
 :root {
   --primary-text-color: #181818;
   --secondary-text-color: #474747;
+  --third-text-color: #757575;
   --orange-color: #fd6e0a;
 }
 /* <!-- ========== Header Section Start Now ========== --> */
-.container {
-  width: 1140px;
-  margin: 0 auto;
+.header {
+  background-image: url('../imges/developer.png'), url('../imges/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
-.nav_wrapper {
+/* ==== Nav section Start now === */
+
+nav {
+  margin: 51px 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 51px 0;
 }
-nav .nav_wrapper h3 {
+
+nav h3 {
   font-weight: 700;
   color: var(--primary-text-color);
   font-size: 45px;
 }
-nav .nav_wrapper h3 span {
+nav h3 span {
   color: var(--orange-color);
 }
-nav .nav_wrapper ul {
+nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -90,4 +95,78 @@ nav .btn {
   color: white;
   font-weight: bold;
 }
+/* ==== Nav section end now === */
+/* ==== banner section Start now === */
+.banner {
+  margin: 0 35px 0 230px;
+}
+.banner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner_content {
+  width: 585px;
+}
+.banner_image {
+  width: 584px;
+}
+.banner_content h3 {
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+.banner_content h1 {
+  font-weight: 700;
+  font-size: 85px;
+  color: var(--primary-text-color);
+  margin-top: 5px;
+}
+.banner_content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--third-text-color);
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  margin-top: 30px;
+
+  align-items: center;
+  gap: 30px;
+}
+.button a:first-child {
+  padding: 19px 17px;
+  background-color: var(--orange-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.button a:first-child i {
+  margin-right: 10px;
+}
+.button a:last-child {
+  padding: 19px 23px;
+  border: 1px solid var(--orange-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--orange-color);
+}
+.button a:last-child i {
+  margin-right: 10px;
+}
+/* ==== banner section end now === */
 /* <!-- ========== Header Section Start Now ========== --> */
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
