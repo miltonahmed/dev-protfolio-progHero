@@ -61,11 +61,13 @@ body {
   font-weight: 700;
   color: var(--primary-text-color);
   font-size: 35px;
+  text-align: center;
 }
 .section-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  text-align: center;
 }
 /* <!-- ========== Header Section Start Now ========== --> */
 .header {
@@ -270,8 +272,65 @@ nav .btn {
 }
 
 /* ==== Skill section end now === */
-/* ==== Nav section Start now === */
-/* ==== Nav section end now === */
+/* ==== Resume section Start now === */
+.resume {
+  background-color: var(--white-color);
+}
+.resume_wrapper {
+  margin-top: 113px;
+  display: flex;
+  gap: 71px;
+}
+.resume_column_title {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+.experience {
+  margin-top: 30px;
+}
+.experience_title {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+.experience_subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--third-text-color);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.experience_description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 511px;
+  color: var(--third-text-color);
+  margin-bottom: 30px;
+}
+hr {
+  width: 558px;
+  height: 1px;
+  background: #d1d1d1;
+}
+.resume_button {
+  text-align: center;
+  margin-top: 69px;
+}
+.resume_button a {
+  padding: 19px 17px;
+  background-color: var(--orange-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+/* ==== Resume section end now === */
 /* ==== Nav section Start now === */
 /* ==== Nav section end now === */
 /* ==== Nav section Start now === */
