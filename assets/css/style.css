@@ -49,6 +49,22 @@ body {
   --secondary-text-color: #474747;
   --third-text-color: #757575;
   --orange-color: #fd6e0a;
+  --bg-primary: #fff8f3;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: 700;
+  color: var(--primary-text-color);
+  font-size: 35px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 /* <!-- ========== Header Section Start Now ========== --> */
 .header {
@@ -167,6 +183,61 @@ nav .btn {
   margin-right: 10px;
 }
 /* ==== banner section end now === */
-/* <!-- ========== Header Section Start Now ========== --> */
+
+/* ==== About section Start now === */
+.about {
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 130px;
+  margin-top: 130px;
+}
+.about_wrapper {
+  padding: 130px 150px;
+  text-align: center;
+}
+.about .about_description {
+  max-width: 827px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about_items {
+  display: flex;
+  justify-content: space-between;
+}
+.about_item span {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  color: var(--third-text-color);
+  margin-bottom: 10px;
+}
+.about_item .about_item_title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 20px;
+  color: var(--primary-text-color);
+}
+
+/* ==== About section end now === */
+
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
+/* ==== Nav section Start now === */
+/* ==== Nav section end now === */
 /* ==== Nav section Start now === */
 /* ==== Nav section end now === */
