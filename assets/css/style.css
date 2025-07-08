@@ -1,2 +1,88 @@
 /* Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+li,
+ul,
+ol,
+img,
+a {
+  line-height: 0.8;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --primary-text-color: #181818;
+  --secondary-text-color: #474747;
+  --orange-color: #fd6e0a;
+}
+/* <!-- ========== Header Section Start Now ========== --> */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 51px 200px;
+}
+nav h3 {
+  font-weight: 700;
+  color: var(--primary-text-color);
+  font-size: 45px;
+}
+nav h3 span {
+  color: var(--orange-color);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 51px;
+}
+nav nav ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+nav .btn {
+  padding: 18px 36px;
+  border: none;
+  background: var(--orange-color);
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+/* <!-- ========== Header Section Start Now ========== --> */
